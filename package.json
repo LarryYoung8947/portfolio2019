@@ -5,14 +5,16 @@
   "dependencies": {
     "axios": "^0.18.0",
     "dropbox": "^4.0.16",
+    "live-server": "^1.2.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-scripts": "2.1.5",
-    "react-spring": "^8.0.7"
+    "react-spring": "^8.0.7",
+    "url-loader": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "webpack js/main.js dist/bundle.js",
+    "start": "webpack-dev-server",
+    "build": "webpack",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -26,8 +28,17 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "file": "^0.2.2",
+    "file-loader": "^3.0.1",
+    "image-webpack-loader": "^4.6.0",
+    "loader": "^2.1.1",
+    "webpack": "^4.29.6",
     "webpack-cli": "^3.2.3",
-    "webpack-dev-server": "^3.2.1"
+    "webpack-dev-server": "^3.3.1"
   },
   "description": "2019",
   "main": "(main.js)",

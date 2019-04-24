@@ -1,0 +1,4 @@
+webpack verified
+
+1. import images from vanillaJs directory
+2. apply images to project tiles

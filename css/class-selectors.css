@@ -1,0 +1,59 @@
+.project-tile-img {
+  opacity: 0;
+}
+
+.introTitle {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #91690d;
+  font-size: 4em;
+  margin: 10px;
+  letter-spacing: 10px;
+  background-color: transparent;
+  opacity: 1;
+}
+
+.project-tile-img {
+  height: 150px;
+  width: 150px;
+}
+
+.project-tile {
+  border: solid #424548;
+}
+
+.flip {
+  animation: flip 1s;
+}
+
+i.flipBtn {
+  color: #424548
+}
+
+i.flipBtn:hover {
+  color: #91690d;
+}
+
+.resumeArrow:hover {
+  cursor: pointer;
+}
+
+.contactBubble {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  border: solid #424548 1px;
+  border-radius: 100%;
+  font-family: 'Open Sans Condensed';
+  color: #91690d;
+  text-align: center;
+}
+
+.contactBubble p {
+  position: relative;
+  top: 35%;
+}
+
+.contactBubble:nth-child(2) p {
+  position: relative;
+  top: 25%;
+}
